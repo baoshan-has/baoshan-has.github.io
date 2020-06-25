@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http//www.w3.org/1999/xhtml">
+  <head>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Baoshan-HSA/HAS</title>
+    <!-- 中心 -->
+<style>
+<!-- LOGO -->
+.img_center{
+  text-align:center
+}
+
+<!-- H1 -->
+<div style="width:300px; height:400px; background-color:aqua; margin:0 auth">
+
+</style>
+  </head>
+  <body>
+    <!-- LOGO -->
+    <a href="http://baoshan-has.github.io/" target="_blank"><div class="img_center"><img src="https://baoshan-has.github.io/img/logo.gif" style="width:305px;height;67px"/></div></a>
+    <hr />
+	<!-- H1 -->
+    <div>
+      <h1>深圳市宝山技工学校主机安全社团资料查询系统</h1>
+
+
+        <div class="header">
+                <div class="header_search">
+                    <input type="text" class="duanko-seatch" autofocus="autofocus" id="name" placeholder="搜索资料编号" />
+                </div>
+        </div>
+      <p>可根据资料的编号进行查询并下载，编号由相关人员不定期进行发布，本资料查询系统资料来源社团成员学习所记，请尊重原作者版权等信息，部分资料对照表不给予显示。用于相关教学等目的，请勿上传或提交相关病毒程序，一经发现，严肃处理。 【按回车键Enter检索】</p>
+    </div>
+  </body>
+     <script>
+                document.getElementById("name").onkeydown=function(e){
+            if(e.keyCode==13){
+                window.location.href='https://baoshan-has.github.io/data/'+document.getElementById("name").value+'.pdf';
+            }   
+        }
+    </script>
+  </html>
+

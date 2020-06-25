@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http//www.w3.org/1999/xhtml">
+  <head>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Baoshan-HSA/HAS</title>
+    <!-- 中心 -->
+<style>
+<!-- LOGO -->
+.img_center{
+  text-align:center
+}
+
+<!-- H1 -->
+<div style="width:300px; height:400px; background-color:aqua; margin:0 auth">
+
+</style>
+  </head>
+  <body>
+    <!-- LOGO -->
+    <a href="http://baoshan-has.github.io/" target="_blank"><div class="img_center"><img src="https://baoshan-has.github.io/img/logo.gif" style="width:305px;height;67px"/></div></a>
+    <hr />
+	<!-- H1 -->
+    <div>
+      <h1>深圳市宝山技工学校主机安全社团会员服务系统</h1>
+
+
+        <div class="header">
+                <div class="header_search">
+                    <input type="text" class="duanko-seatch" autofocus="autofocus" id="name" placeholder="会员名字" />
+                </div>
+        </div>
+      <p>根据会员名字进行查询，显示会员所交手的会费信息以及会员的相关资料。【按回车键Enter检索】</p>
+    </div>
+  </body>
+     <script>
+                document.getElementById("name").onkeydown=function(e){
+            if(e.keyCode==13){
+                window.location.href='https://baoshan-has.github.io/mber/'+document.getElementById("name").value+'.html';
+            }   
+        }
+    </script>
+  </html>
+
